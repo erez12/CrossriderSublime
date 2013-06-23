@@ -22,6 +22,7 @@ File type must be javascript in order for snipets to have effect
 * dbSet
 * dbSetFromRemote
 * dbUpdateExpiration
+ 
 ###### DB Async:
 * dbAsyncGet
 * dbAsyncGetExpiration
@@ -32,6 +33,7 @@ File type must be javascript in order for snipets to have effect
 * dbAsyncSet
 * dbAsyncSetFromRemote
 * dbAsyncUpdateExpiration
+
 ###### DOM:
 * domAddInlineCSS
 * domAddInlineJS
@@ -41,6 +43,9 @@ File type must be javascript in order for snipets to have effect
 * domOnDocumentStartAddCSS
 * domOnDocumentStartAddJS
 
+###### Request:
+* requestGet
+* requestPost
     
 ## Author
 
