@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.bookmarks.getTree(function(${1:nodes}) {
+appAPI.bookmarks.getTree(function (${1:nodes}){
     ${2://Optional callback}
 });
 

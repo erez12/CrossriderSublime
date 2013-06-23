@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.async.remove("${1:Key}", function() {
+appAPI.db.async.remove("${1:Key}", function (){
     ${2:// Optional callback}
 });
 

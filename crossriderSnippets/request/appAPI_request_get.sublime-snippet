@@ -3,10 +3,10 @@
 <![CDATA[
 appAPI.request.get({
 	url: '$1',
-	onSuccess: function(response, additionalInfo) {
+	onSuccess: function (response, additionalInfo){
 		${2://Optional success callback}
     },
-    onFailure: function(httpCode) {
+    onFailure: function (httpCode){
     	${3://Optional fail callback}
     },
     additionalRequestHeaders: {

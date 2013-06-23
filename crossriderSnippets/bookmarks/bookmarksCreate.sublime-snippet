@@ -5,7 +5,7 @@ appAPI.bookmarks.create({
     title: '${1:Title}',
     url: '${2:Url}',
     parentFolder: ${3:Node}},
-    function(${4:bookmark}) {
+    function (${4:bookmark}){
     	${5://Optional callback}
 });
 

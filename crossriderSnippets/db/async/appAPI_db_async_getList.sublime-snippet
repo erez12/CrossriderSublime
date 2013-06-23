@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.async.getKeys(function(${1:dbItems}) {
+appAPI.db.async.getKeys(function (${1:dbItems}){
     $2
 });
 

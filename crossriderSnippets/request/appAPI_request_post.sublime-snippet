@@ -6,10 +6,10 @@ appAPI.request.get({
     postData: {
         ${2://Optional post data}
     },
-	onSuccess: function(response, additionalInfo) {
+	onSuccess: function (response, additionalInfo){
 		${3://Optional success callback}
     },
-    onFailure: function(httpCode) {
+    onFailure: function (httpCode){
     	${4://Optional fail callback}
     },
     additionalRequestHeaders: {

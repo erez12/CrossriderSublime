@@ -5,10 +5,10 @@ appAPI.db.async.setFromRemote(
     "${1:Url}",
     "${2:Key}",
     ${3:/* Optional expiration */},
-    function(response) {
+    function (response){
         ${4://Optional success callback}
     },
-    function(HttpCode) {
+    function (HttpCode){
         ${5://Optional fail callback}
 });
 

@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.bookmarks.getDefaultFolder(function(${1:node}) {
+appAPI.bookmarks.getDefaultFolder(function (${1:node}){
     ${2://Optional callback}
 });
 

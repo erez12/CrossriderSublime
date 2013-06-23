@@ -5,7 +5,7 @@ appAPI.db.async.set(
 	"${1:Key}",
 	${2:Value: Any JSON serializable value},
 	${3:/*Optional expiration*/},
-	function() {
+	function (){
 	    ${4:// Optional callback}
 });
 
