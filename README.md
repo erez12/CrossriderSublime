@@ -1,18 +1,18 @@
-
 # Crossrider Sublime Snipets
 
 ### Crossrider's API sublime text 2 snippets helper ###
 
 ## Installation
 * git clone
-* FInd your user packges folder. The easiest way to find it is creating a new snippet under by going to Tools -> New Snippet. Try to save the new file and Sublime shuolde automatecly try to save it in the user packege folder. Copy that location and cancel the save file.
-* Copy CrossriderSnippets folder to your user packges folder
+* FInd your user packages folder. The easiest way to find it is creating a new snippet by going to Tools -> New Snippet. Try to save the new snippet and Sublime should automatically try to save it in the user package folder. Copy that location and cancel the save file.
+* Copy CrossriderSnippets folder to your user packages folder
 * Sublime might need to restart for changes to have effect
 
 ## Usage
-File type must be javascript in order for snipets to have effect
-####Supported snipets keys: <br>(note: you dont need to type the complete word sublime will auto complete):
-###### DB:    
+File type must be javascript in order for snippets to have effect. Just start typing one of the supported snippets keys and sublime should open a dropdown menu.
+#####Supported snippets keys:
+> ####DB:
+>    
 * dbGet
 * dbGetExpiration
 * dbGetKeys
@@ -23,7 +23,8 @@ File type must be javascript in order for snipets to have effect
 * dbSetFromRemote
 * dbUpdateExpiration
  
-###### DB Async:
+>####DB Async:
+>
 * dbAsyncGet
 * dbAsyncGetExpiration
 * dbAsyncGetKeys
@@ -34,7 +35,8 @@ File type must be javascript in order for snipets to have effect
 * dbAsyncSetFromRemote
 * dbAsyncUpdateExpiration
 
-###### DOM:
+>##### DOM:
+>
 * domAddInlineCSS
 * domAddInlineJS
 * domAddRemoteCSS
@@ -43,7 +45,8 @@ File type must be javascript in order for snipets to have effect
 * domOnDocumentStartAddCSS
 * domOnDocumentStartAddJS
 
-###### Request:
+>##### Request:
+>
 * requestGet
 * requestPost
     
