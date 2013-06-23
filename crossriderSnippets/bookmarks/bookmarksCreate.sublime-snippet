@@ -1,0 +1,143 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.create({
+    title: '${1:Title}',
+    url: '${2:Url}',
+    parentFolder: ${3:Node}},
+    function(${4:bookmark}) {
+    	${5://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksCreate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.createFolder({
+    title: '${1:Title}',
+    parentFolder: ${2:Node}},
+    function(${3:folder}) {
+    	${4://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksCreateFolder</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.getDefaultFolder(function(${1:node}) {
+    ${2://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksGetDefaultFolder</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.getToolbarFolder(function(${1:node}) {
+    ${2://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksGetToolbarFolder</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.getTree(function(${1:nodes}) {
+    ${2://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksGetTree</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.isBookmark("${1:Url}", function(${2:found}) {
+    ${3://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksGetTree</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.remove("${1:Node}", function() {
+    ${2://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksRemove</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.searchByPredicate(function(${1:node}) {
+    ${2:// Search criteria}
+    }, function(${3:nodes}) {
+   		${4://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarkSearchByPredicate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
+
+
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.searchByTitle("google", function(nodes) {
+    alert('Number of nodes with google in the title: ' + nodes.length);
+});
+appAPI.bookmarks.searchByPredicate(function(${1:node}) {
+    ${2:// Search criteria}
+    }, function(${3:nodes}) {
+   		${4://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarkSearchByPredicate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

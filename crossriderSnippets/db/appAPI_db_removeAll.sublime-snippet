@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.removeAll();
+
+]]>
+</content>
+	<tabTrigger>dbRemoveAll</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

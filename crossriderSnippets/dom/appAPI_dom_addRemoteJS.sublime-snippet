@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.dom.addRemoteJS("${1:JS Url}");
+
+]]>
+</content>
+	<tabTrigger>domAddRemoteJS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.dom.addInlineCSS("${1:css string}");
+
+]]>
+</content>
+	<tabTrigger>domAddInlineCSS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

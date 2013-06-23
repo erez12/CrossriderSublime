@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.async.removeAll(function() {
+    ${1:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>dbAsycRemoveAll</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

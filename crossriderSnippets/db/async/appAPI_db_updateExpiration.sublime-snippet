@@ -1,0 +1,15 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.async.updateExpiration(
+    "${1:Key}",
+    ${2:/*Optional expiration*/},
+    function() {
+        ${3:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>dbAsyncUpdateExpiration</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

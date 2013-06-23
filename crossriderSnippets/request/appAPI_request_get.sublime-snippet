@@ -1,0 +1,20 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.request.get({
+	url: '$1',
+	onSuccess: function(response, additionalInfo) {
+		${2://Optional success callback}
+    },
+    onFailure: function(httpCode) {
+    	${3://Optional fail callback}
+    },
+    additionalRequestHeaders: {
+        ${4://Optional request headers}
+    }
+});
+]]>
+</content>
+	<tabTrigger>appAPI.request.get</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

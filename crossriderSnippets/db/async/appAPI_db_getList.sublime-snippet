@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.async.getKeys(function(${1:dbItems}) {
+    $2
+});
+
+]]>
+</content>
+	<tabTrigger>dbAsyncGetList</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

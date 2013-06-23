@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.dom.addInlineJS("${1:JS string}");
+
+]]>
+</content>
+	<tabTrigger>domAddInlineJS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

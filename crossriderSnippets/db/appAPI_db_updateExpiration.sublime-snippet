@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.updateExpiration("${1:Key}", ${2:Expiration});
+
+]]>
+</content>
+	<tabTrigger>dbUpdateExpiration</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

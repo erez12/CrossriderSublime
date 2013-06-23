@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.async.remove("${1:Key}", function() {
+    ${2:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>dbAsyncRemove</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

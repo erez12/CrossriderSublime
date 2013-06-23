@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+var ${1:dbItems} = appAPI.db.getList()
+
+]]>
+</content>
+	<tabTrigger>dbGetList</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

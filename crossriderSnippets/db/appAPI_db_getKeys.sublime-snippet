@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+var ${1:dbKeys} = appAPI.db.getKeys();
+
+]]>
+</content>
+	<tabTrigger>dbGetKeys</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

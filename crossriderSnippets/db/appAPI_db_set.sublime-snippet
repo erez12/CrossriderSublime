@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.set("${1:Key}", ${2:Value: Any JSON serializable value} ${3:/*,Optional expiration*/});
+
+]]>
+</content>
+	<tabTrigger>dbSet</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

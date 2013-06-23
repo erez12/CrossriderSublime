@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.dom.onDocumentStart.addJS({
+    addJS({js:"${1:JS string}"});
+});
+
+]]>
+</content>
+	<tabTrigger>domOnDocumentStartAddJS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

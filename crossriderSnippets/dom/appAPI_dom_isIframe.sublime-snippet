@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+var isIframe = appAPI.dom.isIframe();
+
+]]>
+</content>
+	<tabTrigger>domIsIframe</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

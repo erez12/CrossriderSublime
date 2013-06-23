@@ -1,0 +1,16 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.db.async.set(
+	"${1:Key}",
+	${2:Value: Any JSON serializable value},
+	${3:/*Optional expiration*/},
+	function() {
+	    ${4:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>dbAsyncSet</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

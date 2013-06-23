@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.dom.addRemoteCSS("${1:css Url}");
+
+]]>
+</content>
+	<tabTrigger>domAddRemoteCSS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

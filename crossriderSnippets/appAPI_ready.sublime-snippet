@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.ready(function (\$){
+	$1
+});
+
+]]>
+</content>
+	<tabTrigger>ready</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
