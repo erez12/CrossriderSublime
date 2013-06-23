@@ -15,6 +15,6 @@ appAPI.request.get({
 });
 ]]>
 </content>
-	<tabTrigger>appAPI.request.get</tabTrigger>
+	<tabTrigger>requestGet</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

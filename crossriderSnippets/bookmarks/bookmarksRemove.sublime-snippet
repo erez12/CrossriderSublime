@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.remove("${1:Node}", function() {
+    ${2://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksRemove</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

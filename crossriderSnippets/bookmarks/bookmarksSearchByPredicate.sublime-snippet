@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.searchByPredicate(function(${1:node}) {
+    ${2:// Search criteria}
+    }, function(${3:nodes}) {
+   		${4://Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarkSearchByPredicate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
