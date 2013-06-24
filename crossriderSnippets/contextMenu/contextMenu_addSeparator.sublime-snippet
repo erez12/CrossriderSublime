@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.contextMenu.addSeparator("${1:key}");
+
+]]>
+</content>
+	<tabTrigger>contextMenuAddSeparator</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

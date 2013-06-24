@@ -12,7 +12,7 @@
 File type must be javascript in order for snippets to have effect. Just start typing one of the supported snippets keys and sublime should open a dropdown menu.
 #####Supported snippets keys:
 > ####DB:
->    
+>
 * dbGet
 * dbGetExpiration
 * dbGetKeys
@@ -22,7 +22,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * dbSet
 * dbSetFromRemote
 * dbUpdateExpiration
- 
+
 >####DB Async:
 >
 * dbAsyncGet
@@ -70,6 +70,16 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * setResourceIcon
 * browserActionOnClick
 * browserActionSetTitle
+
+>#### ContextMenu
+>
+* contextMenuAdd
+* contextMenuAddSeparator
+* contextMenuRemove
+* contextMenuRemoveAll
+* contextMenuUpdateOnClick
+* contextMenuUpdateTitle
+
 ## Author
 
 * Erez Giladi

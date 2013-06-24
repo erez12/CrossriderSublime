@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.contextMenu.remove("${1:key}");
+
+]]>
+</content>
+	<tabTrigger>contextMenuRemove</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

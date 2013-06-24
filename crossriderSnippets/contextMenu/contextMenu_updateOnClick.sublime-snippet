@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.contextMenu.updateOnClick('${1:key}', function(${2:data}) {
+    ${3:// Optional on click callback}
+});
+
+]]>
+</content>
+	<tabTrigger>contextMenuUpdateOnClick</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
