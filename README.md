@@ -49,6 +49,17 @@ File type must be javascript in order for snippets to have effect. Just start ty
 >
 * requestGet
 * requestPost
+
+>#### Tabs
+>
+* tabsCreate
+* tabsGetActive
+* tabsSetActive
+* tabsGetAllTabs
+* tabsOnTabClosed
+* tabsOnTabCreated
+* tabsOnTabSelectionChanged
+
     
 ## Author
 
