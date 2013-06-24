@@ -60,7 +60,16 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * tabsOnTabCreated
 * tabsOnTabSelectionChanged
 
-    
+>#### BrowserAction
+>
+* clearPopup
+* closePopup
+* setPopup
+* setBadgeBackgroundColor
+* setBadgeText
+* setResourceIcon
+* browserActionOnClick
+* browserActionSetTitle
 ## Author
 
 * Erez Giladi
