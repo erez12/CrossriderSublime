@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.browserAction.setPopup({
+    resourcePath:'${1:html/popup.html}',
+    height: ${2:300},
+    width: ${3:300}
+});
+
+]]>
+</content>
+	<tabTrigger>setPopup</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

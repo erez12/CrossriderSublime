@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.browserAction.closePopup();
+
+]]>
+</content>
+	<tabTrigger>closePopup</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

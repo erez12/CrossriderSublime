@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.browserAction.setResourceIcon('${1:icons/icon.jpg}');
+
+]]>
+</content>
+	<tabTrigger>setResourceIcon</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

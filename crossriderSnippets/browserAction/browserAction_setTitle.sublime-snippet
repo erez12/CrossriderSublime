@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.browserAction.setTitle('${1:Click to activate the extension}');
+
+]]>
+</content>
+	<tabTrigger>browserActionSetTitle</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
