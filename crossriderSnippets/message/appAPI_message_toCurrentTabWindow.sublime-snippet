@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.message.toCurrentTabWindow($1${2:, { channel: "" \}});
+
+]]>
+</content>
+	<tabTrigger>messageToCurrentTabWindow</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

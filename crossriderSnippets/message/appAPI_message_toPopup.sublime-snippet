@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.message.toPopup($1${2:, { channel: "" \}});
+
+]]>
+</content>
+	<tabTrigger>messageToPopup</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

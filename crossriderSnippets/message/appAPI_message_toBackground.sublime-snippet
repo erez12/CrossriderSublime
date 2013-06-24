@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.message.toBackground($1${2:, { channel: "" \}});
+
+]]>
+</content>
+	<tabTrigger>messageToBackground</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

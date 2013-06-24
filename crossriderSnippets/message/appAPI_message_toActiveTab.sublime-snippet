@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.message.toActiveTab($1${2:, { channel: "" \}});
+
+]]>
+</content>
+	<tabTrigger>messageToActiveTab</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

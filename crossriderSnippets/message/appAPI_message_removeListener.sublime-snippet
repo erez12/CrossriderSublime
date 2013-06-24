@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.message.removeListener(${1:id});
+
+]]>
+</content>
+	<tabTrigger>messageRemoveListener</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

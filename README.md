@@ -35,30 +35,22 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * dbAsyncSetFromRemote
 * dbAsyncUpdateExpiration
 
->#### DOM:
+>#### Message
 >
-* domAddInlineCSS
-* domAddInlineJS
-* domAddRemoteCSS
-* domAddRemoteJS
-* domIsIframe
-* domOnDocumentStartAddCSS
-* domOnDocumentStartAddJS
+* messageAddListener
+* messageRemoveListener
+* messageToActiveTab
+* messageToAllOtherTabs
+* messageToAllTabs
+* messageToBackground
+* messageToCurrentTabIframes
+* messageToCurrentTabWindow
+* messageToCurrentTabWindow
 
 >#### Request:
 >
 * requestGet
 * requestPost
-
->#### Tabs
->
-* tabsCreate
-* tabsGetActive
-* tabsSetActive
-* tabsGetAllTabs
-* tabsOnTabClosed
-* tabsOnTabCreated
-* tabsOnTabSelectionChanged
 
 >#### BrowserAction
 >
@@ -79,6 +71,26 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * contextMenuRemoveAll
 * contextMenuUpdateOnClick
 * contextMenuUpdateTitle
+
+>#### Tabs
+>
+* tabsCreate
+* tabsGetActive
+* tabsSetActive
+* tabsGetAllTabs
+* tabsOnTabClosed
+* tabsOnTabCreated
+* tabsOnTabSelectionChanged
+
+>#### DOM:
+>
+* domAddInlineCSS
+* domAddInlineJS
+* domAddRemoteCSS
+* domAddRemoteJS
+* domIsIframe
+* domOnDocumentStartAddCSS
+* domOnDocumentStartAddJS
 
 ## Author
 

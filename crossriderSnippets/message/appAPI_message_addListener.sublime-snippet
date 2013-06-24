@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+var ${1:id} = appAPI.message.addListener(${2:{channel: ""\}, }function(${4:msg}) {
+	${5:// onMessage callback}
+});
+
+]]>
+</content>
+	<tabTrigger>messageAddListener</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
