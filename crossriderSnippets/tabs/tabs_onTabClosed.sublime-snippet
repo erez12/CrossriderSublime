@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.tabs.onTabClosed(function(${1:tabInfo}) {
+	${2:// Optional callback
+});
+
+]]>
+</content>
+	<tabTrigger>tabsOnTabClosed</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

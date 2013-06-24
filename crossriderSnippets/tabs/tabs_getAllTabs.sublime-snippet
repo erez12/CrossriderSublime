@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.tabs.getAllTabs(function(${1:allTabInfo}) {
+	${2:// Optional callback
+});
+
+]]>
+</content>
+	<tabTrigger>tabsGetAllTabs</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

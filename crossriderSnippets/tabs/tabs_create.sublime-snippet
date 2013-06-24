@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.tabs.create('${1:Url}');
+
+]]>
+</content>
+	<tabTrigger>tabsCreate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

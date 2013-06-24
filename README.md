@@ -35,7 +35,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * dbAsyncSetFromRemote
 * dbAsyncUpdateExpiration
 
->##### DOM:
+>#### DOM:
 >
 * domAddInlineCSS
 * domAddInlineJS
@@ -45,7 +45,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * domOnDocumentStartAddCSS
 * domOnDocumentStartAddJS
 
->##### Request:
+>#### Request:
 >
 * requestGet
 * requestPost

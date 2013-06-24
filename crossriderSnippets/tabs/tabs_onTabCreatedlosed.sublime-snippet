@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.tabs.onTabCreated(function(${1:tabInfo}) {
+	${2:// Optional callback
+});
+
+]]>
+</content>
+	<tabTrigger>tabsOnTabCreated</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
