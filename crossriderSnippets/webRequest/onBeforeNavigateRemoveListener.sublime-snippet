@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.webRequest.onBeforeNavigate.removeListener(${1:listenerId});
+
+]]>
+</content>
+	<tabTrigger>onBeforeNavigateRemoveListener</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

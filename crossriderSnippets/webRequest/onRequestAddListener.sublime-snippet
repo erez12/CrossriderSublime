@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+var ${1:listenerId} = appAPI.webRequest.onRequest.addListener(function(${2:details}, ${3:opaqueData}) {
+	${4:// onRequest callback}
+}${5:, opaque});
+
+]]>
+</content>
+	<tabTrigger>onRequestAddListener</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

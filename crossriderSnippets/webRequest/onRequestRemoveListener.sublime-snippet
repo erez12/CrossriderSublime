@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.webRequest.onRequest.removeListener(${1:listenerId});
+
+]]>
+</content>
+	<tabTrigger>onRequestRemoveListener</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

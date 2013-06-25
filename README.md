@@ -52,6 +52,15 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * requestGet
 * requestPost
 
+>#### WebRequest:
+>
+* onRequestAddListener
+* onRequestRemoveListener
+* onRequestUpdateOpaque
+* onBeforeNavigateAddListener
+* onBeforeNavigateRemoveListener
+* onBeforeNavigateUpdateOpaque
+
 >#### BrowserAction
 >
 * clearPopup

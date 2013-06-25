@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.webRequest.onBeforeNavigate.updateOpaque(${1:listenerId}, ${2:opaque});
+
+]]>
+</content>
+	<tabTrigger>onBeforeNavigateUpdateOpaque</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
