@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.time.yearsAgo($1);
+
+]]>
+</content>
+	<tabTrigger>yearsAgo</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.time.now($1);
+
+]]>
+</content>
+	<tabTrigger>now</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

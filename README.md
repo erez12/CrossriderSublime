@@ -92,6 +92,20 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * domOnDocumentStartAddCSS
 * domOnDocumentStartAddJS
 
+>#### Time:
+>
+* now
+* secondsAgo
+* secondsFromNow
+* minutesAgo
+* minutesFromNow
+* hoursAgo
+* hoursFromNow
+* daysAgo
+* daysFromNow
+* yearsAgo
+* yearsFromNow
+
 ## Author
 
 * Erez Giladi
