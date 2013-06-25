@@ -4,14 +4,14 @@
 
 ## Installation
 * git clone
-* FInd your user packages folder. The easiest way to find it is creating a new snippet by going to Tools -> New Snippet. Try to save the new snippet and Sublime should automatically try to save it in the user package folder. Copy that location and cancel the save file.
+* Find your user packages folder. The easiest way to find it is creating a new snippet by going to Tools -> New Snippet. Try to save the new snippet and Sublime should automatically try to save it in the user package folder. Copy that location and cancel the save file.
 * Copy CrossriderSnippets folder to your user packages folder
 * Sublime might need to restart for changes to have effect
 
 ## Usage
 File type must be javascript in order for snippets to have effect. Just start typing one of the supported snippets keys and sublime should open a dropdown menu.
 #####Supported snippets keys:
-> ####DB:
+> ####appAPI.db:
 >
 * dbGet
 * dbGetExpiration
@@ -23,7 +23,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * dbSetFromRemote
 * dbUpdateExpiration
 
->####DB Async:
+>####appAPI.db.async:
 >
 * dbAsyncGet
 * dbAsyncGetExpiration
@@ -35,7 +35,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * dbAsyncSetFromRemote
 * dbAsyncUpdateExpiration
 
->#### Message
+>####appAPI.message
 >
 * messageAddListener
 * messageRemoveListener
@@ -47,12 +47,12 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * messageToCurrentTabWindow
 * messageToCurrentTabWindow
 
->#### Request:
+>####appAPI.request:
 >
 * requestGet
 * requestPost
 
->#### WebRequest:
+>####appAPI.webRequest:
 >
 * onRequestAddListener
 * onRequestRemoveListener
@@ -61,7 +61,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * onBeforeNavigateRemoveListener
 * onBeforeNavigateUpdateOpaque
 
->#### BrowserAction
+>####appAPI.browserAction
 >
 * clearPopup
 * closePopup
@@ -72,7 +72,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * browserActionOnClick
 * browserActionSetTitle
 
->#### ContextMenu
+>####appAPI.contextMenu
 >
 * contextMenuAdd
 * contextMenuAddSeparator
@@ -81,7 +81,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * contextMenuUpdateOnClick
 * contextMenuUpdateTitle
 
->#### Tabs
+>####appAPI.tabs
 >
 * tabsCreate
 * tabsGetActive
@@ -91,7 +91,7 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * tabsOnTabCreated
 * tabsOnTabSelectionChanged
 
->#### DOM:
+>####appAPI.dom:
 >
 * domAddInlineCSS
 * domAddInlineJS
@@ -101,7 +101,21 @@ File type must be javascript in order for snippets to have effect. Just start ty
 * domOnDocumentStartAddCSS
 * domOnDocumentStartAddJS
 
->#### Time:
+>####appAPI.time:
+>
+* now
+* secondsAgo
+* secondsFromNow
+* minutesAgo
+* minutesFromNow
+* hoursAgo
+* hoursFromNow
+* daysAgo
+* daysFromNow
+* yearsAgo
+* yearsFromNow
+
+>####appAPI.time:
 >
 * now
 * secondsAgo
