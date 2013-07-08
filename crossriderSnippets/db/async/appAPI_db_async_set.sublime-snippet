@@ -2,12 +2,12 @@
 	<content>
 <![CDATA[
 appAPI.db.async.set(
-	"${1:Key}",
-	${2:Value: Any JSON serializable value},
-	${3:/*Optional expiration*/},
+	'${1:key}',
+	${2:value: Any JSON serializable value}${3:/* Optional,
+	${4:expires},
 	function (){
-	    ${4:// Optional callback}
-});
+	    ${5:// Optional callback}
+\}*/});
 
 ]]>
 </content>

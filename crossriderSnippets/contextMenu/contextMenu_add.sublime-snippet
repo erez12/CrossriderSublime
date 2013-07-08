@@ -3,7 +3,7 @@
 <![CDATA[
 appAPI.contextMenu.add('${1:key}', '${2:title}', function (${3:data}) {
 	${4:// Optional on click callback}
-}, [${5:"all", "page", "textSelection", "link", "image"}]);
+}, [${5:'all', 'page', 'textSelection', 'link', 'image'}]);
 
 ]]>
 </content>

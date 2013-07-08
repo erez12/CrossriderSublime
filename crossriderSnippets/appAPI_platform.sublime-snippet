@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.platform
+]]>
+</content>
+	<tabTrigger>platform</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+var ${1:timeoutlId} = appAPI.setTimeout(function() {
+	${2://Optional callback}
+}, ${3:delay});
+
+]]>
+</content>
+	<tabTrigger>setTimeout</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -5,6 +5,6 @@ appAPI.browserAction.clearPopup();
 
 ]]>
 </content>
-	<tabTrigger>clearPopup</tabTrigger>
+	<tabTrigger>browserActionClearPopup</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.appInfo.environment
+]]>
+</content>
+	<tabTrigger>appInfoEnvironment</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

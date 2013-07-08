@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.utils.isFunction(${1:value})
+]]>
+</content>
+	<tabTrigger>utilsIsFunction</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

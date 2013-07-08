@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.dom.addInlineJS("${1:JS string}");
+appAPI.dom.addInlineJS('${1:jsCode}');
 
 ]]>
 </content>

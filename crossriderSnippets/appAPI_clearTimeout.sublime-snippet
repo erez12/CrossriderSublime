@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.clearTimeout(${1:timeoutId});
+
+]]>
+</content>
+	<tabTrigger>clearTimeout</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

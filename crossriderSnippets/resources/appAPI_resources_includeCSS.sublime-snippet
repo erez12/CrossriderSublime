@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.resources.includeCSS('${1:resourcePath}'${2:, /*Optional object*/});
+
+]]>
+</content>
+	<tabTrigger>resourcesIncludeCSS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

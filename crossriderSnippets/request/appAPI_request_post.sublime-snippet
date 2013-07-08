@@ -2,21 +2,22 @@
 	<content>
 <![CDATA[
 appAPI.request.get({
-	url: '$1',
+	url: '${1:url}'${2:/* Optional ,
     postData: {
-        ${2://Optional post data}
-    },
-	onSuccess: function (response, additionalInfo){
-		${3://Optional success callback}
-    },
-    onFailure: function (httpCode){
-    	${4://Optional fail callback}
-    },
+        ${3:postData}
+    \},
+	onSuccess: function (${4:response}, ${5:additionalInfo}){
+		${6://Optional success callback}
+    \},
+    onFailure: function (${7:httpCode}){
+    	${8://Optional fail callback}
+    \},
     additionalRequestHeaders: {
-        ${5://Optional request headers}
-    },
-    contentType: ${6://Optional content type}
-});
+        ${9://Optional request headers}
+    \},
+    contentType: ${10://contentType}
+\}*/});
+
 ]]>
 </content>
 	<tabTrigger>requestPost</tabTrigger>

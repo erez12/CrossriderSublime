@@ -2,7 +2,7 @@
 	<content>
 <![CDATA[
 appAPI.ready(function (\$){
-	$1
+	${1:callback}
 });
 
 ]]>

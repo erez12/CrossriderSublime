@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+var ${1:value} = appAPI.JSON.parse('${2:JSON}');
+
+]]>
+</content>
+	<tabTrigger>JSONParse</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

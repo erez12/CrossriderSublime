@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.dom.onDocumentStart.addCSS({
+    css: '${1:css}'${2:/* Optional ,
+    resourcePath: '${3:resourcePath}',
+    whitelistUrls: [${4:whitelistUrls}] */}
+});
+
+]]>
+</content>
+	<tabTrigger>domOnDocumentStartAddCSS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

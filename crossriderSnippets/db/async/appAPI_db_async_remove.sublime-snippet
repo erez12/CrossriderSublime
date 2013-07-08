@@ -1,9 +1,9 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.async.remove("${1:Key}", function (){
-    ${2:// Optional callback}
-});
+appAPI.db.async.remove('${1:key}'${2:/* Optional, function (){
+    ${3:// Optional callback}
+\}*/});
 
 ]]>
 </content>

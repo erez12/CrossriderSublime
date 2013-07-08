@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.resources.jQuery('${1:version}');
+
+]]>
+</content>
+	<tabTrigger>resourcesJquery</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

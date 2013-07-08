@@ -5,6 +5,6 @@ appAPI.browserAction.closePopup();
 
 ]]>
 </content>
-	<tabTrigger>closePopup</tabTrigger>
+	<tabTrigger>browserActionClosePopup</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

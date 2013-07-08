@@ -1,9 +1,9 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.async.removeAll(function (){
-    ${1:// Optional callback}
-});
+appAPI.db.async.removeAll(${1:/* Optional function () {
+    ${2:// Optional callback}
+\}*/});
 
 ]]>
 </content>

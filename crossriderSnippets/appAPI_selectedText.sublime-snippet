@@ -1,0 +1,16 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.selectedText(function(${1:text} ${2:/*, Optional event */}) {
+	${3:// Optional callback}
+}${4:/* Optional ,{
+    element: '${5:element}',
+    minlength: ${6:minlength},
+    maxlength: ${7:maxlength}
+}}*/);
+
+]]>
+</content>
+	<tabTrigger>selectedText</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

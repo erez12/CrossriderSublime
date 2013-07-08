@@ -1,12 +1,12 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.async.get("${1:Key}", function (${2:Value}){
-    $3
-});
+appAPI.db.async.get('${1:key}'${2:/* Optional, function (${3:value}){
+    ${4:// Optional callback}
+\}*/});
 
 ]]>
 </content>
-	<tabTrigger>dbAsycGet</tabTrigger>
+	<tabTrigger>dbAsyncGet</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

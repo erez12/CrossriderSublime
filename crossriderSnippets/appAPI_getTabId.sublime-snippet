@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+var tabId = appAPI.getTabId();
+
+]]>
+</content>
+	<tabTrigger>getTabId</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.tabs.onTabClosed(function(${1:tabInfo}) {
+appAPI.tabs.onTabClosed(function(${1:/* tabInfo */}) {
 	${2:// Optional callback}
 });
 

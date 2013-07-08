@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.appInfo.version
+]]>
+</content>
+	<tabTrigger>appInfoVersion</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.isBackground
+]]>
+</content>
+	<tabTrigger>isBackground</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

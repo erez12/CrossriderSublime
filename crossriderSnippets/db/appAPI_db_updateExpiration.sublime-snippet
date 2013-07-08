@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.updateExpiration("${1:Key}", ${2:Expiration});
+appAPI.db.updateExpiration('${1:Key}', ${2:expires});
 
 ]]>
 </content>

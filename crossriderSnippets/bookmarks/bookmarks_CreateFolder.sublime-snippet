@@ -1,0 +1,15 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.createFolder({
+    title: '${1:Title}',
+    parentFolder: ${2:Node}},
+    function (${3:folder}){
+    	${4:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksCreateFolder</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

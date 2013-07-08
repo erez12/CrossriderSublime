@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+CrossriderAPI.isAppInstalled('${1:extId}', function(${2:/* Optional isInstalled*/}) {
+	${3:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>isAppInstalled</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

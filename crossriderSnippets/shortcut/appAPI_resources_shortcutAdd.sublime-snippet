@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.shortcut.add('${1:shortcutCombination}', function(${2:/* event */}) {
+	${3://Optional callback}
+}${4:,/* Optional {
+	type: '${5:type}',
+	disable_in_input: ${6:disable_in_input},
+	target: '${7:target}',
+	propogate: ${8:propogate},
+	keycode: '${9:keycode}'
+\}*/});
+
+]]>
+</content>
+	<tabTrigger>shortcutAdd</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

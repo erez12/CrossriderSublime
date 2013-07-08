@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.set("${1:Key}", ${2:Value: Any JSON serializable value} ${3:/*,Optional expiration*/});
+appAPI.db.set('${1:key}', ${2:value: Any JSON serializable value} ${3:/* Optional, expires*/});
 
 ]]>
 </content>

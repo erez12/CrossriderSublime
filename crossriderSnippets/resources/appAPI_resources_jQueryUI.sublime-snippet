@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.resources.jQueryUI('${1:version}');
+
+]]>
+</content>
+	<tabTrigger>resourcesJqueryUI</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

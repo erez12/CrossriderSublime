@@ -2,13 +2,14 @@
 	<content>
 <![CDATA[
 appAPI.browserAction.setPopup({
-    resourcePath:'${1:html/popup.html}',
-    height: ${2:300},
-    width: ${3:300}
+    url: '${1:url}',
+    ${2:/*Optional resourcePath: '${3:resourcePath}', */}
+    height: ${4:height},
+    width: ${5:width}
 });
 
 ]]>
 </content>
-	<tabTrigger>setPopup</tabTrigger>
+	<tabTrigger>browserActionSetPopup</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

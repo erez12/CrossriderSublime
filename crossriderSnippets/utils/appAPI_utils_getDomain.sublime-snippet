@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.utils.getDomain('${1:url}');
+
+]]>
+</content>
+	<tabTrigger>utilsGetDomain</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

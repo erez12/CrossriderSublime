@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.browser.realVersionNumber
+]]>
+</content>
+	<tabTrigger>browserRealVersionNumber</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,10 +1,10 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.time.hoursFromNow($1);
+appAPI.time.hoursFromNow(${1:hours});
 
 ]]>
 </content>
-	<tabTrigger>hoursFromNow</tabTrigger>
+	<tabTrigger>timeHoursFromNow</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

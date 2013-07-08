@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.updateTitle(${1:node}, '${2:New Url}', function (${3:node}){
+	${4:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksUpdateUrl</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

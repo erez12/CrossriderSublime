@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.resources.getFolderContent({
+    ${1:/*Optional path: '${2:path}',
+	fileType: '${3:fileType}',
+	deep: ${4:deep}*/
+}});
+
+]]>
+</content>
+	<tabTrigger>resourcesGetFolderContent</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

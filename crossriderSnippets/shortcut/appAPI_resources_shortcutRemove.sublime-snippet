@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.shortcut.remove('${1:shortcutCombination}');
+
+]]>
+</content>
+	<tabTrigger>shortcutRemove</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

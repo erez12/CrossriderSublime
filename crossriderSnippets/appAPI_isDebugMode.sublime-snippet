@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.isDebugMode()
+]]>
+</content>
+	<tabTrigger>isDebugMode</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

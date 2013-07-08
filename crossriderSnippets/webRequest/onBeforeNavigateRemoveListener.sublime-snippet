@@ -5,6 +5,6 @@ appAPI.webRequest.onBeforeNavigate.removeListener(${1:listenerId});
 
 ]]>
 </content>
-	<tabTrigger>onBeforeNavigateRemoveListener</tabTrigger>
+	<tabTrigger>webRequestOnBeforeNavigateRemoveListener</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

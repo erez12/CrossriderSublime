@@ -1,9 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.tabs.setActive(function(${1:tabInfo}) {
-	${2:// Optional callback}
-});
+appAPI.tabs.setActive(${1:tabId});
 
 ]]>
 </content>

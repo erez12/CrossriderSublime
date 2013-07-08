@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.dom.addRemoteCSS("${1:css Url}");
+appAPI.dom.addRemoteCSS('${1:cssUrl}');
 
 ]]>
 </content>

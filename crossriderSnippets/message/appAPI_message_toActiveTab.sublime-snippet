@@ -1,7 +1,10 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.message.toActiveTab($1${2:, { channel: "" \}});
+appAPI.message.toActiveTab(${1:message}${2:/* Optional, {
+	channel: '${3:channel}',
+	toIframes: ${4:toIframes}
+\}*/});
 
 ]]>
 </content>

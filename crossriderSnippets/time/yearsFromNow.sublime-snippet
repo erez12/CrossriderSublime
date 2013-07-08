@@ -1,10 +1,10 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.time.yearsFromNow($1);
+appAPI.time.yearsFromNow(${1:years});
 
 ]]>
 </content>
-	<tabTrigger>yearsFromNow</tabTrigger>
+	<tabTrigger>timeYearsFromNow</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

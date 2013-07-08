@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.utils.isArray(${1:value})
+]]>
+</content>
+	<tabTrigger>utilsIsArray</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

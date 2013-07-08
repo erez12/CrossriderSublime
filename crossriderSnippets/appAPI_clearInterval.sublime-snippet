@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.clearInterval(${1:intervalId});
+
+]]>
+</content>
+	<tabTrigger>clearInterval</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

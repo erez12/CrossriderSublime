@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.remove("${1:Key}");
+appAPI.db.remove('${1:key}');
 
 ]]>
 </content>

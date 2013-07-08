@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.searchByUrl('${1:Url}', function (${2:nodes}){
+	${3:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksSearchByUrl</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

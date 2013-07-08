@@ -2,15 +2,15 @@
 	<content>
 <![CDATA[
 appAPI.db.setFromRemote(
-    "${1:Url}",
-    "${2:Key}",
-    ${3:/* Optional expiration, */}
-    function(response) {
-        ${4://Optional success callback}
-    },
-    function(HttpCode) {
-        ${5://Optional fail callback}
-});
+    '${1:url}',
+    '${2:key}'${3:/* Optional,
+    ${4:expires},
+    function(${5:response}) {
+        ${6:// Optional success callback}
+    \},
+    function(${7:HttpCode}) {
+        ${8:// Optional failure callback}
+\}*/});
 
 ]]>
 </content>

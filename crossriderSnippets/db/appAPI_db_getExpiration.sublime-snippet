@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-var ${1:objectExpirationDate} = appAPI.db.getExpiration("${2:Key}");
+var ${1:objectExpirationDate} = appAPI.db.getExpiration('${2:Key}');
 
 ]]>
 </content>

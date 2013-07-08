@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.bookmarks.isBookmark('${1:Url}', function (${2:found}){
+    ${3:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bookmarksIsBookmark</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

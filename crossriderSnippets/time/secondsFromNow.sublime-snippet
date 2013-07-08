@@ -1,10 +1,10 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.time.secondsFromNow($1);
+appAPI.time.secondsFromNow(${1:seconds});
 
 ]]>
 </content>
-	<tabTrigger>secondsFromNow</tabTrigger>
+	<tabTrigger>timeSecondsFromNow</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

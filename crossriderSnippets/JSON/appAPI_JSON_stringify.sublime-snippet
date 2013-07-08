@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+var ${1:JSON} = appAPI.JSON.stringify(${2:value});
+
+]]>
+</content>
+	<tabTrigger>JSONStringify</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.resources.includeRemoteJS('${1:resourcePath}'${2:, /*Optional expires*/});
+
+]]>
+</content>
+	<tabTrigger>resourcesIncludeRemoteJS</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

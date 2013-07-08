@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.appInfo.userId
+]]>
+</content>
+	<tabTrigger>appInfoUserId</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

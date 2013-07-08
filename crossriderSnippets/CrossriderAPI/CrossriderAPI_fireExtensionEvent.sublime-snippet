@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+CrossriderAPI.fireExtensionEvent(${1:/* 'Optional target', */}'${2:eventName}', ${3:data});
+
+]]>
+</content>
+	<tabTrigger>fireExtensionEvent</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

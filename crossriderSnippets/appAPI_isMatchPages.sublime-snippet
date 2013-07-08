@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.isMatchPages(${1:urlPattern} /* , ${2:urlPattern} */)
+]]>
+</content>
+	<tabTrigger>isMatchPages</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

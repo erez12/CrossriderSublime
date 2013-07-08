@@ -1,9 +1,9 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.async.getKeys(function (${1:dbKeys}){
-    $2
-});
+appAPI.db.async.getKeys(${1:/* Optional function (${2:arrayOfKeys}){
+    ${3:// Optional callback}
+\}*/});
 
 ]]>
 </content>

@@ -1,10 +1,10 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.browserAction.setBadgeText('${1:ext}', [${2:255}, ${3:0}, ${4:0}, ${5:255}]);
+appAPI.browserAction.setBadgeText('${1:text}'${2:/*Optional, [${3:Red}, ${4:Green}, ${5:Blue}, ${6:Alpha}]*/});
 
 ]]>
 </content>
-	<tabTrigger>setBadgeText</tabTrigger>
+	<tabTrigger>browserActionSetBadgeText</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.resources.parseTemplate('${1:resourcePath}', ${2:object});
+
+]]>
+</content>
+	<tabTrigger>resourcesParseTemplate</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

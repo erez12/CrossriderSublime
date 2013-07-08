@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.utils.isNumber(${1:value})
+]]>
+</content>
+	<tabTrigger>utilsIsNumber</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

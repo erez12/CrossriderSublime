@@ -1,12 +1,12 @@
 <snippet>
 	<content>
 <![CDATA[
-var ${1:listenerId} = appAPI.webRequest.onBeforeNavigate.addListener(function(${2:details}, ${3:opaqueData}) {
-	${4:// onBeforeNavigate callback}
-}${5:, opaque});
+var ${1:listenerId} = appAPI.webRequest.onBeforeNavigate.addListener(function(${2:/* details */}, ${3:/* opaqueData */}) {
+	${4:// Optional callback}
+}${5:/* Optional , ${6:opaque} */});
 
 ]]>
 </content>
-	<tabTrigger>onBeforeNavigateAddListener</tabTrigger>
+	<tabTrigger>webRequestOnBeforeNavigateAddListener</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

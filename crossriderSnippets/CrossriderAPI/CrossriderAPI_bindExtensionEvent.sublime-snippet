@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+CrossriderAPI.bindExtensionEvent(${1:/* 'Optional target', */}'${2:eventName}', function(${3:/* Optional event ${4:data}*/}) {
+	${5:// Optional callback}
+});
+
+]]>
+</content>
+	<tabTrigger>bindExtensionEvent</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -2,11 +2,11 @@
 	<content>
 <![CDATA[
 appAPI.db.async.updateExpiration(
-    "${1:Key}",
-    ${2:/*Optional expiration*/},
+    '${1:key}'${2:/* Optional ,
+    ${3:expires},
     function() {
-        ${3:// Optional callback}
-});
+        ${4:// Optional callback}
+\}*/});
 
 ]]>
 </content>

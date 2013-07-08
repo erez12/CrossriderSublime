@@ -1,8 +1,8 @@
 <snippet>
 	<content>
 <![CDATA[
-var ${1:id} = appAPI.message.addListener(${2:{channel: ""\}, }function(${4:msg}) {
-	${5:// onMessage callback}
+var ${1:id} = appAPI.message.addListener(${2:/* Optional {channel: '${3:channel}'\}, */}function(${4:msg}) {
+	${5:// Optional callback}
 });
 
 ]]>

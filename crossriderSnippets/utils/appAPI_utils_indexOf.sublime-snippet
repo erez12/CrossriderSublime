@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.utils.indexOf(${1:array}, ${2:value}${3:/* ,Optional start */});
+
+]]>
+</content>
+	<tabTrigger>utilsIndexOf</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

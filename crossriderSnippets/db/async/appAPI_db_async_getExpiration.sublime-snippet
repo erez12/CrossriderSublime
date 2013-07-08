@@ -1,9 +1,9 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.db.async.getExpiration("${1:Key}", function (${2:expiration}){
-    ${3:// Optional callback}
-});
+appAPI.db.async.getExpiration('${1:key}'${2:/* Optional, function(${3:expiration}){
+    ${4:// Optional callback}
+\}*/});
 
 ]]>
 </content>

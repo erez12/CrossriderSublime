@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.browserAction.setTitle('${1:Click to activate the extension}');
+appAPI.browserAction.setTitle('${1:title}');
 
 ]]>
 </content>

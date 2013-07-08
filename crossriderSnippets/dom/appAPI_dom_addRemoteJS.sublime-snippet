@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-appAPI.dom.addRemoteJS("${1:JS Url}");
+appAPI.dom.addRemoteJS('${1:jsUrl}');
 
 ]]>
 </content>

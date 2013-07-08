@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+<![CDATA[
+appAPI.resources.createImage('${1:resourcePath}');
+
+]]>
+</content>
+	<tabTrigger>resourcesCreateImage</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

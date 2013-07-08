@@ -2,17 +2,18 @@
 	<content>
 <![CDATA[
 appAPI.request.get({
-	url: '$1',
-	onSuccess: function (response, additionalInfo){
-		${2://Optional success callback}
-    },
-    onFailure: function (httpCode){
-    	${3://Optional fail callback}
-    },
+    url: '${1:url}'${2:/* Optional ,
+    onSuccess: function (${4:response}, ${5:additionalInfo}){
+        ${6://Optional success callback}
+    \},
+    onFailure: function (${7:httpCode}){
+        ${8://Optional fail callback}
+    \},
     additionalRequestHeaders: {
-        ${4://Optional request headers}
-    }
-});
+        ${9://Optional request headers}
+    \}
+\}*/});
+
 ]]>
 </content>
 	<tabTrigger>requestGet</tabTrigger>
