@@ -214,7 +214,7 @@ Open or Create a JavaScript file (.js) and just start typing the first character
 
 ## Author
 
-* Erez Giladi
+* Erez Giladi with help by Shlomo Sagir
 
 ## License
 
