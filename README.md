@@ -5,12 +5,12 @@ This project contains Crossrider's API snippet files to enhance coding using Cro
 ## Installation
 1. [git clone](https://help.github.com/articles/fork-a-repo) (or [download](https://github.com/erez12/CrossriderSublime/archive/master.zip)).
 2. Locate your Sublime **user packages** folder.
-**Tip**: The easiest way to find the location of the **user packages** folder is to create a new snippet (**Tools** -> **New Snippet**), attempt to save it making note of the save folder (by default, the **user packages** folder), and then canceling the save.
+**Tip**: The easiest way to find the location of the **user packages** folder is to create a new snippet (<b>Tools</b> -> **New Snippet**), attempt to save it making note of the save folder (by default, the **user packages** folder), and then canceling the save.
 3. Copy the **CrossriderSnippets** folder from the git clone (or download) to your **user packages** folder.
 **Note**: You may need to restart Sublime for the changes to take effect.
 
 ## Usage
-Open or Create a JavaScript file (.js) and just start typing the first character of any of the supported snippet keywords and Sublime opens a drop-down menu of the matching snippets.
+Open or Create a JavaScript file (.js) and just start typing the first character of any of the supported snippet keywords and Sublime opens a dropdown menu of the matching snippets.
 **Tip**: You can speed up finding snippets by typing ahead. For example, to speed up matching *browserActionOnClick*, you can type **baonclick**.
 #####Supported snippets keywords:
 
